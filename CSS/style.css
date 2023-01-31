@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #DED6BF;
+}
+
+/*------------------------Header-----------------------*/
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+header nav ul li:hover{
+    border-bottom: 1px solid #DED6BF;
+}
+
+header img{
+    margin-left: 30px;
+    padding: 15px;
+}
+
+/*--------------------Main---------------------*/
+
+#fondo1{
+    width: 100%;
+    position: relative;
+}
+
+#section1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#texto1{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    
+    width: 500px;
+    text-align: center;
+    color: #DED6BF;
+}
+
+#texto1 h2{
+    padding: 10px;
+    font-size: 45px;
+}
+
+#texto1 p{
+    padding: 10px 5px;
+}
+
+#contenedor-divs{
+    display: flex;
+    color:#DED6BF;
+    
+}
+
+#fiesta{
+    background-color: #DED6BF;
+    color: #D2392C;
+}
+
+#contenedor-divs h3{
+    padding: 10px;
+    font-size: 35px;
+}
+
+#contenedor-divs p{
+    padding: 10px 20px;
+    height: 100px;
+}
+
+#brunch{
+    color: #DED6BF;
+    background-color: #D2392C;
+}
+
+#contenedor-divs div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+
+    text-align: center;
+    height: 400px;
+}
+
+#contenedor-frutillas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fondo-frutillas{
+    position: relative;
+    width: 100%;
+}
+
+#texto-frutillas{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+
+    color: #DED6BF;
+    text-align: center;
+    width: 500px;
+}
+
+#texto-frutillas h3{
+    padding: 10px;
+    font-size: 45px;
+}
+
+#texto-frutillas p{
+    padding: 10px 20px;
+}
+
+#productos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.prod-imagen{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    width: 15%;
+    box-sizing: border-box;
+    padding: 10px 5px;
+}
+
+.prod-texto{
+    display: flex;
+    flex-direction: column;
+
+    width: 35%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.prod-texto h4{
+    font-size: 24px;
+    padding: 5px;
+}
+
+.prod-texto p{
+    padding: 5px;
+    font-size: 16px;
+}
+
+#reservas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+    color: #DED6BF;
+
+    padding: 10px 20px;
+}
+
+#gran-contenedor h3{
+    padding: 10px 0px;
+
+    font-size: 36px;
+    text-decoration: underline;
+    color: #DED6BF;
+}
+
+#reservas div span{
+    display: inline-block;
+    width: 150px;
+}
+
+input,textarea{
+    width: 300px;
+
+    margin: 5px;
+}
+
+#gran-contenedor{
+    display: flex;
+
+    background-color: #D2392C;
+}
+
+#ubicacion{
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px 20px;
+}
+
+#img-ubicacion{
+    width: 500px;
+    height: 400px;
+}
+
+/*------------------------Footer------------------------*/
+
+footer{
+    background-color: #251D1E;
+    color: #DED6BF;
+    padding: 20px;
+
+    display: flex;
+}
+
+footer ul{
+    display: flex;
+}
+
+#datos{
+    flex: 1;
+    flex-direction: column;
+}
+
+#redes a{
+    background: url(../Imagenes/Sprite.png) no-repeat 0 -78px;
+    overflow: hidden;
+    text-indent: -200px;
+    display: inline-block;
+
+    width: 39px;
+    height: 39px;
+}
+
+#redes #fb:hover{
+    background-position: 0 -39px;
+}
+
+#redes #pt:hover{
+    background-position: -195px -39px;
+}
+
+#redes #pt{
+    background-position: -195px -78px;
+}
+
+#redes #tw:hover{
+    background-position: -312px -39px;
+}
+
+#redes #tw{
+    background-position: -312px -78px;
+}
+
+#redes #yt:hover{
+    background-position: -390px -39px;
+}
+
+#redes #yt{
+    background-position: -390px -78px;
+}
+
+
+
+
+
+
+
