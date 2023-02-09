@@ -38,9 +38,17 @@ header nav ul li:hover{
     border-bottom: 1px solid #DED6BF;
 }
 
-header img{
+#logo{
     margin-left: 30px;
     padding: 15px;
+}
+
+#nav img{
+    display: none;
+}
+
+#btn-menu{
+    display: none;
 }
 
 /*--------------------Main---------------------*/
@@ -78,7 +86,6 @@ header img{
 #contenedor-divs{
     display: flex;
     color:#DED6BF;
-    
 }
 
 #fiesta{
@@ -153,16 +160,22 @@ header img{
     align-content: center;
     justify-content: center;
 
-    width: 15%;
+    width: 20%;
     box-sizing: border-box;
-    padding: 10px 5px;
+    transform: scale(0.80);
+    overflow:visible;
+}
+
+.prod-imagen img{
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
 .prod-texto{
     display: flex;
     flex-direction: column;
 
-    width: 35%;
+    width: 30%;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -184,7 +197,7 @@ header img{
     flex: 1;
 
     color: #DED6BF;
-
+    
     padding: 10px 20px;
 }
 
@@ -216,13 +229,18 @@ input,textarea{
 #ubicacion{
     display: flex;
     flex-direction: column;
+    align-items: center;
 
+    width: 50%;
     padding: 10px 20px;
 }
 
 #img-ubicacion{
-    width: 500px;
+    width: 100%;
     height: 400px;
+
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
 /*------------------------Footer------------------------*/
@@ -281,6 +299,11 @@ footer ul{
 #redes #yt{
     background-position: -390px -78px;
 }
+
+
+
+
+
 
 
 
