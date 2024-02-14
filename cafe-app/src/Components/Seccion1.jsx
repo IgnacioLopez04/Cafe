@@ -2,7 +2,7 @@ import fondo from '../Assets/Fondo1.jpg';
 
 export function Seccion1(){
     return(
-        <section id="section1" className='flex justify-center items-center'>
+        <section id="inicio" className='flex justify-center items-center'>
             <img src={fondo} alt="Bandeja con Cup-Cakes" id="fondo1" className='w-full relative'></img>
             <div id="texto1" className='absolute flex flex-col w-1/2 text-center text-letra-color'>
                 <h2 className='p-3 text-45px'>Recien hechos, todos los dias</h2>

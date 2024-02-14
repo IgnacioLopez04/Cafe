@@ -1,7 +1,7 @@
 export function Reservas(){
     return(
         <>
-            <form className="flex flex-col items-center flex-grow-1 text-letra-color py-2 px-5">
+            <form className="flex flex-col items-center flex-grow-1 text-letra-color py-2 px-5" id="reservas">
                 <h3 className="py-2 text-35px underline ">Realiza tu reserva</h3>
                 <div className="">
                     <span className="inline-block w-150px m-2">Nombre y apellido</span>
