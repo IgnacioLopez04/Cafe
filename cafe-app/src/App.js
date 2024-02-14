@@ -14,16 +14,16 @@ function App() {
     <>
       <Menu></Menu>
       <main>
-        <Seccion1></Seccion1>
+        <Seccion1 id="inicio"></Seccion1>
         <Seccion2></Seccion2>
         <Seccion3></Seccion3>
-        <Productos>s</Productos>
+        <Productos id="productos">s</Productos>
         <section className='flex bg-fondo-rojo'>
-          <Reservas></Reservas>
+          <Reservas id="reservas"></Reservas>
           <Ubicacion></Ubicacion>
         </section>
       </main>
-      <footer className='flex bg-footer text-letra-color p-5 justify-between'>
+      <footer className='flex bg-footer text-letra-color p-5 justify-between' id="contactos">
         <Datos></Datos>
         <Redes></Redes>
       </footer>
