@@ -8,7 +8,7 @@ import Icono4 from '../Assets/Icono4.png';
 export function Productos(){
     return(
         <>
-            <section className='flex flex-row flex-wrap' id='productos'>
+            <section className='flex flex-row flex-wrap productos' id='productos'>
                 <ProductoImagen imagen={Icono1}></ProductoImagen>
                 <ProductoTexto title={'Panes recién hechos'} text={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum officia et atque quis expedita, dolore voluptatibus veniam doloremque. Nihil alias blanditiis iure quibusdam laboriosam delectus consequuntur impedit laudantium molestiae quaerat.'}></ProductoTexto>
                 <ProductoImagen imagen={Icono2}></ProductoImagen>

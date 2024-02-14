@@ -18,7 +18,7 @@ function App() {
         <Seccion2></Seccion2>
         <Seccion3></Seccion3>
         <Productos>s</Productos>
-        <section className='flex bg-fondo-rojo'>
+        <section className='flex bg-fondo-rojo' id='reserv-ubi'>
           <Reservas></Reservas>
           <Ubicacion></Ubicacion>
         </section>

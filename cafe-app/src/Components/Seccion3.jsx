@@ -3,7 +3,7 @@ import Fondo2 from '../Assets/Fondo2.jpg';
 export function Seccion3(){
     return(
         <>
-            <section className='flex justify-center items-center'>
+            <section className='flex justify-center items-center' id='texto-frutillas'>
                 <img src={Fondo2} alt="Fondo de frutillas" className='relative w-full'></img>
                 <div className='absolute flex flex-col text-letras-color text-center w-500px text-letra-color'>
                     <h3 className='p-2 text-45px'>Ven a desayunar</h3>

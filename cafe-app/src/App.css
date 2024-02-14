@@ -99,44 +99,47 @@ a{
 
 /*------------------Responsive-(900px-850px)----------------*/
 @media screen and (max-width: 900px){
-  #productos div img{
-      transform: scale(0.80);
+  .prod-img img{
+    transform: scale(0.80);
   }
 
-  .prod-imagen{
-      width: 15%;
+  .prod-img{
+    width: 15%;
   }
 
   .prod-texto{
-      width: 35%;
-      padding: 5px;
+    width: 35%;
+    padding: 5px;
   }
 
   #reservas h3, #ubicacion h3{
-      font-size: 26px;
+    font-size: 26px;
   }
 }
 
 @media screen and (max-width:850px){
-  header nav ul li{
-      margin-right: 16px;
-      font-size: 16px;
+  .respon-li{
+    margin-right: 16px;
+    font-size: 16px;
   }
 
-  header img{
-      padding: 10px;
-      margin-left: 10px;
+  #logo{
+    padding: 10px;
+    margin-left: 10px;
+    transform: scale(0.80);
+  }
 
-      transform: scale(0.80);
+  #texto1{
+    width:100%;
   }
 
   #texto1 h2, #texto1 p{
-      transform: scale(0.80);
-      padding: 0px 6px;
+    transform: scale(0.80);
+    padding: 0px 6px;
   }
 
   #contenedor-divs div{
-      height: 300px;
+    height: 300px;
   }
 
   #contenedor-divs h3, #contenedor-divs p{
@@ -157,84 +160,120 @@ a{
       padding: 5px 10px;
   }
 }
-/*------------------(670px)---------------*/
-@media screen and (max-width: 670px){
-  #nav{
-      position: fixed;
-      background: #D2392C;
-      top: 0;
-      right: -275px;
-      width: 175px;
-      height: 200vh;
-      padding: 40px;
-      z-index: 1;
-      transition: all 0.5s;
+
+@media screen and (max-width:700px){
+  #productos{
+    width: 100%;
   }
 
-  #nav ul{
-      flex-direction: column;
-      margin-top: 40px;
+  .prod-img{
+    width: 25%;
   }
 
-  #nav ul li{
-      margin-top: 30px;
-      margin-left: 0px;
-  }
-
-  #nav ul li a{
-      color: #DED6BF;
-  }
-
-  #nav img{
-      display: block;
-  }
-
-  #back_menu{
-      display: none;
-      position: fixed;
-      width: 100%;
-      height: 200vh;
-      top: 0px;
-      left: 0px;
-      background-color: rgba(0,0,0,0.5);
-  }
-
-  #btn-menu{
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
-      width: 50px;
-      height: 50px;
-      font-size: 30px;
-      color: #DED6BF;
-      margin-right: 20px;
-      cursor: pointer;
-
-      border-radius: 50px;
-      transition: all 0.5s;
-  }
-
-  #btn-menu:hover{
-      background-color: rgba(222, 214, 191, 0.2);
+  .prod-texto{
+    flex-direction: column;
+    width: 75%;
   }
 
   #texto1{
-      transform: scale(0.80);
+    transform: scale(1);
+    width: 100%;
   }
 
   #texto1 h2, #texto1 p{
-      padding: 0px 3px;
+    padding: 0px 3px;
+  }
+
+  #reserv-ubi{
+    flex-direction: column;
+  }
+
+  #reservas div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  #ubicacion{
+    width: 100%;
+  }
+
+  #ubicacion img{
+    padding-bottom: 10px;
+  }
+}
+
+/*------------------(670px)---------------*/
+@media screen and (max-width: 670px){
+  #nav{
+    position: fixed;
+    background: #D2392C;
+    top: 0;
+    right: -275px;
+    width: 175px;
+    height: 200vh;
+    padding: 40px;
+    z-index: 1;
+    transition: all 0.5s;
+  }
+
+  #nav ul{
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  #nav ul li{
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+
+  #nav ul li a{
+    color: #DED6BF;
+  }
+
+  #nav img{
+    display: block;
+  }
+
+  #back_menu{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 200vh;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  #btn-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #DED6BF;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.5s;
+  }
+
+  #btn-menu:hover{
+    background-color: rgba(222, 214, 191, 0.2);
   }
 }
 /*------------------(600px)---------------*/
 
 @media screen and (max-width: 600px){
   header img{
-      padding: 5px;
-      margin-left: 5px;
-
-      transform: scale(0.70);
+    padding: 5px;
+    margin-left: 5px;
+    transform: scale(0.70);
   }
 
   #contenedor-divs{
@@ -248,30 +287,15 @@ a{
   }
 
   #contenedor-divs h3{
-      font-size: 20px;
+    font-size: 20px;
   }
 
   #contenedor-divs p{
-      font-size: 14px;
-      height: 50px;
+    font-size: 14px;
   }
 
   #texto-frutillas h3, #texto-frutillas p{
-      transform: scale(0.70);
-      padding: 0px 3px;
-  }
-
-  #productos{
-      width: 100%;
-  }
-
-  .prod-imagen{
-      width: 25%;
-  }
-
-  .prod-texto{
-      flex-direction: column;
-      width: 75%;
+    padding: 0px 3px;
   }
 
   #ubicacion{
