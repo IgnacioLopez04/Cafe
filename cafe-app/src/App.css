@@ -212,14 +212,10 @@ a{
   #nav{
     display: flex;
     position: fixed;
-    background: #D2392C;
     top: 0;
-    right: -275px;
-    width: 175px;
-    height: 200vh;
+    right: -275px;  
     padding: 40px;
     z-index: 1;
-    transition: all 0.5s;
   }
 
   #nav ul{
