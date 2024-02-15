@@ -210,6 +210,7 @@ a{
 /*------------------(670px)---------------*/
 @media screen and (max-width: 670px){
   #nav{
+    display: flex;
     position: fixed;
     background: #D2392C;
     top: 0;
@@ -249,17 +250,23 @@ a{
     background-color: rgba(0,0,0,0.5);
   }
 
+  .menu{
+    width: 40px;
+    height: 40px;
+  }
+
   #btn-menu{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    color: #DED6BF;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    font-size: 20px;
+    fill: #DED6BF;
     margin-right: 20px;
     cursor: pointer;
-    border-radius: 50px;
+    border-radius: 10px;
     transition: all 0.5s;
   }
 
